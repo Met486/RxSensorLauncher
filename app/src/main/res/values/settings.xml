@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <bool name = "xSwitch">false</bool>
+    <bool name = "ySwitch">false</bool>
+    <bool name = "zSwitch">false</bool>
+</resources>
