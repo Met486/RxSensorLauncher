@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<PreferenceScreen
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory app:title="X軸">
-        <SwitchPreferenceCompat
-            app:key="xSwitch"
-            app:title="X軸"
-            app:summary="X軸の実行"/>
+        <PreferenceCategory app:title="X軸">
+            <SwitchPreferenceCompat
+                app:key="xSwitch"
+                app:title="X軸"
+                app:summary="X軸の実行"/>
 
-        <ListPreference
-            app:key="xList"
-            app:title="X軸"
-            app:summary="X軸が-1"
-            app:entries="@array/tool_labels"
-            app:entryValues="@array/tool_values"
-            app:dialogTitle="X軸"
-            app:defaultValue="Torch"/>
-    </PreferenceCategory>
+            <ListPreference
+                app:key="xList"
+                app:title="ツール選択"
+                app:summary=""
+                app:entries="@array/tool_labels"
+                app:entryValues="@array/tool_values"
+                app:dialogTitle="X軸"
+                app:defaultValue="Torch"/>
+            <Preference
+                app:key="xApp"
+                app:title="アプリケーションの設定"
+                app:summary=""
+                />
+        </PreferenceCategory>
+
+    <!--
+
+        <PreferenceCategory app:title="Y軸">
+
+            <SwitchPreferenceCompat
+                app:key="ySwitch"
+                app:title="Y軸"
+                app:summary="Y軸の実行"/>
+
+            <ListPreference
+                app:key="yList"
+                app:title="Y軸"
+                app:summary="ツール選択"
+                app:entries="@array/tool_labels"
+                app:entryValues="@array/tool_values"
+                app:dialogTitle="Y軸"
+                app:defaultValue="Camera"/>
+
+        </PreferenceCategory>
 
 
-    <PreferenceCategory app:title="Y軸">
+        <PreferenceCategory app:title="Z軸">
 
-        <SwitchPreferenceCompat
-            app:key="ySwitch"
-            app:title="Y軸"
-            app:summary="Y軸の実行"/>
+            <SwitchPreferenceCompat
+                app:key="zSwitch"
+                app:title="Z軸"
+                app:summary="Z軸の実行"/>
 
-        <ListPreference
-            app:key="yList"
-            app:title="Y軸"
-            app:summary="Y軸が-1"
-            app:entries="@array/tool_labels"
-            app:entryValues="@array/tool_values"
-            app:dialogTitle="Y軸"
-            app:defaultValue="Camera"/>
+            <ListPreference
+                app:key="zList"
+                app:title="Z軸"
+                app:summary="ツール選択"
+                app:entries="@array/tool_labels"
+                app:entryValues="@array/tool_values"
+                app:dialogTitle="Z軸"
+                app:defaultValue="rotation"/>
 
-    </PreferenceCategory>
-
-
-    <PreferenceCategory app:title="Z軸">
-
-        <SwitchPreferenceCompat
-            app:key="zSwitch"
-            app:title="Z軸"
-            app:summary="Z軸の実行"/>
-
-        <ListPreference
-            app:key="zList"
-            app:title="Z軸"
-            app:summary="Z軸が-1"
-            app:entries="@array/tool_labels"
-            app:entryValues="@array/tool_values"
-            app:dialogTitle="Z軸"
-            app:defaultValue="rotation"/>
-
-    </PreferenceCategory>
-
-</PreferenceScreen>
+        </PreferenceCategory>
+    -->
+ </PreferenceScreen>

@@ -3,4 +3,11 @@
     <bool name = "xSwitch">false</bool>
     <bool name = "ySwitch">false</bool>
     <bool name = "zSwitch">false</bool>
+    <string name = "xApp"></string>
+    <string name = "xAppClass"></string>
+    <string name = "yApp"></string>
+    <string name = "yAppClass"></string>
+    <string name = "zApp"></string>
+    <string name = "zAppClass"></string>
+
 </resources>

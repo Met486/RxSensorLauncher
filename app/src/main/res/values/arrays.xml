@@ -14,11 +14,13 @@
         <item>LEDライト</item>
         <item>カメラ</item>
         <item>回転</item>
+        <item>アプリ</item>
     </string-array>
 
     <string-array name ="tool_values">
         <item>torch</item>
         <item>camera</item>
         <item>rotation</item>
+        <item>application</item>
     </string-array>
 </resources>
